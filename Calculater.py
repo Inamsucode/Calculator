@@ -1,11 +1,5 @@
 import tkinter as tk
 
-#Password-----
-Password = input('Password: ')
-if Password != 'usmani':
-    print('Wrong password!')
-    quit()
-
 #Calculater functions
 def add_to_calculation(symbol):
     global calculation
